@@ -3,7 +3,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from data_profiling import ProfileReport
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
 df=pd.read_csv("C:/Users/SAKSHAM/Downloads/if_main_practice/python_hello/email.csv")
 # print(df.shape)
